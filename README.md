@@ -7,4 +7,4 @@ for a walk through of the precedure involved in developing the final model, plea
 ## API
 This repo also contains the API implementation of this project which can be found in the API folder of this repo. The API was implemented using Flask. All modules reqiured to successfully set up the API can be found in <i>requirements.txt</i>.
 
-
+The pytorch version found in the <i>requirements.txt</i> is the CPU only version, if you intend to run the application on a with GPU, please make sure to install the GPU version of Pytorch from https://pytorch.org/
