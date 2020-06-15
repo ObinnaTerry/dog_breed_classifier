@@ -1,0 +1,41 @@
+body {
+	background: url(dog1.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+}
+
+html {
+	height: 100%;
+}
+
+#content {
+	text-align: center;
+	padding-top: 15%;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				0px 8px 13px rgba(0, 0, 0, 0.1),
+				0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  padding: 12px;
+  border-radius: 3px;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  background-color: red;
+  color: white;
+}
+
+h1 {
+	color: white;
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h3 {
+	color: white;
+}
+
+hr {
+	width: 400px;
+}

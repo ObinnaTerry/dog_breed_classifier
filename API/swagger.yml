@@ -1,0 +1,70 @@
+swagger: "2.0"
+info:
+  description: This API is used for getting prediction on dog species
+  version: "1.0.0"
+  title: Dog Classifier API
+
+basePath: "/api"
+
+# Paths supported by the server application
+paths:
+  /model_predict:
+#    post:
+#      operationId: "model_predict.get_prediction"
+#      tags:
+#        - "Dog Classifier"
+#      summary: "The dog name as predicted by the algorithm"
+#      consumes:
+#        - multipart/form-data
+#      produces:
+#        - "application/json"
+#      parameters:
+#        - in: formData
+#          name: img_path # change it to your parameter name
+#          required: true
+#          type: file
+#          description: Stream to write to filesystem
+#      description: "Get the prediction of a dog image"
+#      responses:
+#        200:
+#          description: "Successful get prediction"
+#          schema:
+#            type: object
+#            items:
+#              properties:
+#                image:
+#                  type: "array"
+#                  description: "image array for prediction"
+
+    get:
+      operationId: "model_predict.read_all"
+      tags:
+        - "Predictions"
+      consumes:
+        - "application/json"
+      produces:
+        - "application/json"
+      summary: "Read the entire predictions logged in the dB"
+      description: "Read the entire predictions logged in the dB"
+      responses:
+        200:
+          description: "Successful read predictions"
+          schema:
+            type: "array"
+            items:
+              properties:
+                prediction:
+                  type: string
+                  description: "predicted output"
+                length:
+                  type: string
+                  description: "total time it to took to make prediction"
+                timestamp:
+                  type: string
+                  description: "Creation timestamp"
+                human:
+                  type: integer
+                  description: "image is human face or not"
+                prediction_id:
+                  type: integer
+                  description: "database id"
