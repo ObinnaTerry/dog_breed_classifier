@@ -33,7 +33,7 @@ SQLAlchemy==1.3.17
 swagger-ui-bundle==0.0.6
 torch==1.2.0+cu92
 torchvision==0.4.0+cu92
-urllib3==1.25.9
+urllib3==1.26.5
 Werkzeug==1.0.1
 wincertstore==0.2
 zipp==3.1.0
