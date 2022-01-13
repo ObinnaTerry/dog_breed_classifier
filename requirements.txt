@@ -24,7 +24,7 @@ olefile==0.46
 openapi-spec-validator==0.2.8
 opencv-python==4.2.0.34
 opencv-python-headless==4.2.0.34
-Pillow==7.1.2
+Pillow==9.0.0
 pyrsistent==0.16.0
 PyYAML==5.3.1
 requests==2.23.0
