@@ -19,7 +19,7 @@ jsonschema==3.2.0
 MarkupSafe==1.1.1
 marshmallow==3.6.1
 marshmallow-sqlalchemy==0.23.1
-numpy==1.18.5
+numpy==1.22.0
 olefile==0.46
 openapi-spec-validator==0.2.8
 opencv-python==4.2.0.34
